@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #747E7E;
+
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    padding: 3rem 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: var(--bg-color);
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    gap: 55px;
+}
+
+.wrapper-card {
+    width: 100%;
+}
+
+.wrapper-card:hover {
+    transform: scale(1.1);
+}
+
+.wrapper-card img {
+    width: 100%;
+
+    border-radius: 8px;
+}
+
+footer {
+    display: grid;
+    align-items: end;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
